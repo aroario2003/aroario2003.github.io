@@ -33,6 +33,15 @@
     background-color: purple;
 }
 
+.menu a.icon {
+
+    background: grey;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .image {
     
     display: block;
@@ -59,12 +68,16 @@ body {
 }
 
 </style>
-<section class="banner">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="menu">
         <a href=".banner">Home</a>
         <a href=".intro">Introduction</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars"></i>
+        </a>
     </div>
- <h1 class="title" style="text-align:center">
+<section class="banner">
+    <h1 class="title" style="text-align:center">
     Learn Linux
 </h1>
 <img class="image" src="http://1000logos.net/wp-content/uploads/2017/03/LINUX-LOGO.png" width="300" height="300"/>
