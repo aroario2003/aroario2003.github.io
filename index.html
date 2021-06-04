@@ -11,21 +11,16 @@
 
 .menu {
 
-    background-color: #808080;
-    position: relative;
-    overflow: hidden;
+    background-color: #000000;
+    width: 100%;
 }
 
-.menu #myLinks {
-
-    display: none;
-}
 
 .menu a{
 
     background-color: #808080;
     color: black;
-    display: block;
+    display: flex;
     text-decoration: none;
 
 }
@@ -40,12 +35,6 @@
     background-color: purple;
 }
 
-.menu a.icon {
-
-    background: grey;
-    display: block;
-    position: absolute;
-}
 
 .image {
     
@@ -73,18 +62,12 @@ body {
 }
 
 </style>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="menu">
-  <div id="myLinks">
-    <a href="#news">News</a>
+ <div class="menu">
+     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
   </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-<section class="banner">
+ <section class="banner">
     <h1 class="title" style="text-align:center">
     Learn Linux
 </h1>
@@ -96,16 +79,6 @@ body {
 <h2 class="intro">
     Introduction
 </h2>
-    <script>
-  function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-    </script>
-</body>
+  </body>
 
 
