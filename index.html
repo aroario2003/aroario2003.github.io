@@ -211,7 +211,8 @@ nav a {
     
     width: 0.125em;
     background: white;
-    animation: write 5s steps(11) forwards;
+    animation: blink 500ms steps(11) infinite,
+        write 5s steps(11) forwards;
 }
 
 .title::before,
@@ -231,6 +232,14 @@ nav a {
     to {
 
         left: 100%;
+    }
+}
+
+@keyframes blink {
+
+    to {
+
+        background: transparent;
     }
 }
 
