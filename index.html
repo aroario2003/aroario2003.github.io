@@ -203,6 +203,27 @@ nav a {
     font-size: 100px;
 }
 
+.title::before {
+
+    background: black;
+    animation: write 5s ease forwards;
+}
+
+.title::after {
+
+    content: "";
+    position: absolute;
+    
+}
+
+@keyframes write {
+
+    to {
+
+        left: 100%;
+    }
+}
+
 #banner {
     background-position: center;
     background-color: black;
