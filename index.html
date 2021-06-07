@@ -202,8 +202,14 @@ nav a {
 
 .title::before {
 
-    background: black;
-    animation: write 10s ease forwards;
+    background: var(--bg-color);
+    animation: write 5s steps(11) forwards;
+}
+
+.title::after {
+    
+    width: 0.125em;
+    background: white;
 }
 
 .title::before,
