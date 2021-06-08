@@ -207,35 +207,10 @@ nav a:hover {
 .title {
 
     font-size: 6.25rem;
-    position: relative;
-    width: max-content;
-}
-
-.title::before {
-
-    background: black;
+    text-align: center;
     animation: write 5s steps(11) forwards;
 }
 
-.title::after {
-    
-    width: 0.125em;
-    background: white;
-    padding-left: 18.75rem
-    animation: blink 5s steps(11) forwards,
-        write 5s steps(11) forwards;
-}
-
-.title::before,
-.title::after {
-
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    
 }
 
 @keyframes write {
@@ -243,14 +218,6 @@ nav a:hover {
     to {
 
         left: 100%;
-    }
-}
-
-@keyframes blink {
-
-    to {
-
-        background: transparent;
     }
 }
 
