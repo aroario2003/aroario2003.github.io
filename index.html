@@ -253,6 +253,28 @@ nav a:hover {
     }
 }
 
+@keyframes colorswitch{ 
+
+    from {
+
+        color: white;
+    }
+
+    to {
+
+        color: black;
+    }
+}
+
+.sectiontitle {
+  
+    diplay: block;
+    padding-bottom: 10px;
+    font-size: 1.875rem;
+    animation: colorswitch 5s ease infinite;
+
+}
+
 .container {
 
     display: flex;
@@ -308,6 +330,7 @@ body {
          <p>  LetsLearnLinux</p>
      </div>
     <ul class="navlist">
+        <h1 class="sectiontitle">Sections</h1>
     <a class="home" href="index.html">Home</a>
     <a class="about" href="#">About</a>
     <a class="Dotfiles" href="https://gitlab.com/aroario2003/bspwm-config-files">Dotfiles</a>
