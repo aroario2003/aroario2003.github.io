@@ -266,27 +266,14 @@ nav a:hover {
     }
 }
 
-@keyframes colorswitchback{ 
-
-    from {
-
-        color: black;
-    }
-
-    to {
-
-        color: white;
-    }
-}
-
-
 .sectiontitle {
   
     display: block;
     padding-bottom: 10px;
     font-size: 1.875rem;
-    animation: colorswitch 5s ease infinite,
-              colorswitchback 5s ease infinite; 
+    animation: colorswitch 5s ease infinite;
+    animation-direction: alternate;
+              
 
 }
 
