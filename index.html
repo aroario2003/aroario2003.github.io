@@ -208,10 +208,8 @@ nav a:hover {
 
     font-size: 6.25rem;
     text-align: center;
-    animation: write 5s steps(11) forwards;
 }
 
-}
 
 @keyframes write {
 
@@ -232,6 +230,14 @@ nav a:hover {
 
         color: black;
     }
+}
+
+@keyframes wobble{
+
+    0%, 100% {transform: translateY(0rem)}
+    25% {transform: translateY(-0.25rem)}
+    75% {transform: translateY(0.25rem)}
+
 }
 
 .sectiontitle {
@@ -261,6 +267,8 @@ nav a:hover {
     margin: 0;
     padding: 0;
     font-family: "Mononoki Nerd Font";
+    animation: wobble 5s ease forwards;
+    animation-iteration-count: infinite;
 }
 
 .logo {
