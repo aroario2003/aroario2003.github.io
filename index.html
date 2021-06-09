@@ -61,6 +61,7 @@
 .contents a{
 
     color: white;
+    animation: expand 1s ease forwards;
 }
 
 #about {
@@ -249,12 +250,16 @@ nav a:hover::before {
     }
 }
 
-@keyframes wobble{
+@keyframes expand {
 
-    0%, 100% {transform: translateY(0rem)}
-    25% {transform: translateY(-0.25rem)}
-    75% {transform: translateY(0.25rem)}
+    from {
 
+        font-size: 20px;
+    }
+    to {
+
+        font-size: 30px;
+    }
 }
 
 .sectiontitle {
