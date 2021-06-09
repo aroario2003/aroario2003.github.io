@@ -181,22 +181,17 @@ nav a:hover {
 
    
     text-decoration: underline;
+    animation: fadein 3s ease forwards;
 }
 
+@keyframes fadein {
 
-nav a:hover::before {
-
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #FFF;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-
+    to {
+      
+        background-color: linear-gradient(45deg, black, gray);
+    }
 }
+
 
 #linus {
 
@@ -303,29 +298,6 @@ nav a:hover::before {
     padding-top: 20px;
     max-width: 100%;
 }
-
-@keyframes drop {
-
-    from { 
-      top: -15vh;
-    }
-
-    to { 
-      top: 70vh;
-      
-  }
-}
-
-.exclam {
-
-    font-size: 100px;
-    color: white;
-    animation: drop 3s ease forwards;
-
-
-}
-
-
 
 .navlist {
 
