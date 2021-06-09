@@ -168,11 +168,28 @@ nav a {
     padding-left: 60px;
     padding-top: 15px;
     text-decoration: none;
+    postion: relative;
 }
 
 nav a:hover {
 
-    text-decoration: underline;
+    visibility: visible;
+    width: 100%;
+
+}
+
+nav a:hover::before {
+
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+
 }
 
 #linus {
