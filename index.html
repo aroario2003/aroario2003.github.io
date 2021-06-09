@@ -304,6 +304,24 @@ nav a:hover::before {
     max-width: 100%;
 }
 
+@keyframes drop {
+
+    0% 
+      top: -15vh;
+
+    100% 
+      top: 70vh
+}
+
+.exclam {
+
+    font-size: 100px;
+    color: white;
+    animation: drop 1s ease forwards;
+
+
+}
+
 
 
 .navlist {
@@ -335,7 +353,7 @@ body {
     </ul>
 </nav>
  <h1 class="title">
-    Learn Linux
+     Learn Linux <span class="exclam">!</span>
 </h1>
 <h3 class="name" style="text-align:center">
     By: Alejandro Rosario
