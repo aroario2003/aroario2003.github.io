@@ -135,6 +135,8 @@ ul {
 .scroll {
 
     overflow: scroll;
+    height: 18.75rem;
+
 }
 
 .section1 {
