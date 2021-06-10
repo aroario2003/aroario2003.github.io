@@ -134,7 +134,7 @@ ul {
 }
 .scroll {
 
-    overflow: scroll;
+    overflow-y: scroll;
     height: 18.75rem;
 
 }
