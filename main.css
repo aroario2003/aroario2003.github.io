@@ -126,6 +126,17 @@ ul {
     display: block;
 }
 
+.seven {
+
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: block;
+}
+.scroll {
+
+    overflow: scroll;
+}
+
 .section1 {
 
     background-color: gray;
