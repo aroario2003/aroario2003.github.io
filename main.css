@@ -211,6 +211,28 @@ nav a:hover {
 
 }
 
+#terminal {
+
+    padding-left: 50px;
+    color: black;
+    padding-top: 50px;
+}
+
+.terminalpa {
+
+    padding-right: 50%;
+    padding-left: 50px;
+}
+
+.terminalbox {
+
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 .image {
     
     display: block;
