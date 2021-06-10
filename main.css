@@ -259,6 +259,32 @@ nav a:hover {
     padding-left: 50px;
 }
 
+.text {
+
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+.text::before {
+   
+    background:black;
+    animation: write 5s steps(20) forwards;
+
+}
+
+.text::before,
+.text::after {
+ 
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
 .image {
     
     display: block;
