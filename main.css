@@ -231,6 +231,8 @@ nav a:hover {
     height: 200px;
     padding-right: 50px;
     padding-left: 50px;
+    align: right;
+
 }
 
 .image {
