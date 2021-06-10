@@ -169,10 +169,10 @@ ul {
 .terminalbox {
 
     background-color: black;
+    height: 300px;
+    width: 300px;
     margin: auto;
-    padding: 10px;
-    width: 30%
-    height: 30%; 
+    padding: 10px; 
 }
 
 nav {
