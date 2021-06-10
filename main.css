@@ -175,6 +175,14 @@ ul {
     padding: 10px; 
 }
 
+.terminalbox .prompt {
+
+    font-size: 15px;
+    float: left;
+    padding-left: 10px;
+    color: white;
+}
+
 nav {
 
     width: 100%;
