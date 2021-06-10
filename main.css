@@ -224,15 +224,6 @@ nav a:hover {
     padding-left: 50px;
 }
 
-.terminalbox {
-
-    background-color: black;
-    height: 300px;
-    width: 300px;
-    padding-bottom: 50px;
-    justify-content: center;
-}
-
 .image {
     
     display: block;
