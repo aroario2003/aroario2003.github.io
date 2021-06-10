@@ -264,6 +264,8 @@ nav a:hover {
     position: relative;
     font-size: 15px;
     color: white;
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 .text::before {
@@ -278,10 +280,10 @@ nav a:hover {
  
     content: "";
     position: absolute;
-    top: 10;
+    top: 0;
     bottom: 0;
     right: 0;
-    left: 5;
+    left: 0;
 
 }
 
