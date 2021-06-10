@@ -222,17 +222,10 @@ nav a:hover {
 
     padding-right: 50%;
     padding-left: 50px;
-}
-
-.terminalbox {
-
     background-color: black;
-    width: 200px;
-    height: 200px;
-    padding-right: 50px;
-    padding-left: 50px;
-    align: right;
-
+    background-padding-left: 60%;
+    background-padding-top: 50%;
+    background-padding-right: 50px;
 }
 
 .image {
