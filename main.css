@@ -281,6 +281,14 @@ nav a:hover {
 
 }
 
+.text::after {
+
+    width: 0.125em;
+    background: white;
+    animation: write 5s steps(20) forwards;
+
+}
+
 .text::before,
 .text::after {
  
