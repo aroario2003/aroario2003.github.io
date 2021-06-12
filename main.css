@@ -272,6 +272,7 @@ nav a:hover {
     color: white;
     padding-top: 15px;
     padding-left: 40px;
+    display: block;
 }
 
 .text::before {
