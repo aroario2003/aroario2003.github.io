@@ -272,6 +272,7 @@ nav a:hover {
     color: white;
     padding-top: 15px;
     padding-left: 40px;
+    width: max-content;
 }
 
 .text::before {
@@ -285,6 +286,7 @@ nav a:hover {
 
     width: 0.125em;
     background: white;
+    padding-top: 15px;
     animation: write 5s steps(20) forwards;
 
 }
