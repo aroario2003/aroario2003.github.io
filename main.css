@@ -166,6 +166,11 @@ ul {
     overflow: hidden;
 }
 
+.termcon {
+
+    padding-bottom: 50px
+}
+
 .terminalbox {
 
     background-color: black;
@@ -173,7 +178,6 @@ ul {
     width: 600px;
     margin: auto;
     border-radius: 10px;
-    padding-bottom: 50px;
     position: relative;
 }
 
