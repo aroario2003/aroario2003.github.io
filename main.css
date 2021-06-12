@@ -174,7 +174,7 @@ ul {
     margin: auto;
     border-radius: 10px;
     padding-bottom: 50px;
-    display: inline-block;
+    position: relative;
 }
 
 .terminalbox .prompt {
