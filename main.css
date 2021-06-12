@@ -294,9 +294,9 @@ nav a:hover {
 
 }
 
-.fitext,
-.mtext,
-.ftext {
+.terminalbox .fitext,
+.terminalbox .mtext,
+.terminalbox .ftext {
 
     padding-left: 10px;
     color: white;
