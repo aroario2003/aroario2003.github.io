@@ -294,6 +294,17 @@ nav a:hover {
 
 }
 
+.fitext,
+.mtext,
+.ftext {
+
+    padding-left: 10px;
+    color: white;
+    padding-top: 5px;
+    display: block;
+ 
+}
+
 .image {
     
     display: block;
